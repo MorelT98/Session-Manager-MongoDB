@@ -1,0 +1,155 @@
+body {
+    background-color: #e1ddd9;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, SunSans-Regular, sans-serif;
+    color: #564b47;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+div#contentarea {
+    text-align: left;
+    vertical-align: middle;
+    align-content: center;
+    margin: 0px auto;
+    padding: 0px;
+    width: 60%;
+    background-color: #FFFFFF;
+    border: 1px #564b47;
+}
+
+div#innercontentarea{
+    padding: 10px 50px;
+}
+
+div#innercontentarea form input[type=text]{
+    width: 90%;
+}
+
+div#innercontentarea form textarea[name=content]{
+    width: 90%;
+}
+
+table.articles {
+    width: 100%;
+    line-height: 1;
+    text-align: left;
+}
+
+table.articles th{
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+    font-weight: bold;
+}
+table.articles td{
+    border-bottom: 1px solid #eee;
+    padding: 6px 0;
+}
+
+div#navigation{
+    margin: 0px 150px;
+    padding: 5px 90px;
+    text-align: center;
+}
+
+div#navigation div.prev{
+    display: block;
+    float: left;
+    width: 40%;
+}
+
+div#navigation div.page-number{
+    float: left;
+    width: 20%;
+}
+
+div#navigation div.next{
+    float: right;
+    width: 40%;
+}
+
+.clear{
+    clear: both;
+}
+
+div#comment-section {
+    border-top: 1px solid #ccc;
+}
+
+div#comment-section form input.comment-input {
+    width: 88%;
+}
+
+div#comment-section form {
+    border-top: 1px solid #ccc;
+}
+
+div#comment-section form textarea[name=comment]{
+    width: 100%;
+}
+
+span#date {
+    color: darkblue;
+    font-size: 0.75em;
+}
+
+span.input-label {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+div#login-box{
+    margin: 50px auto 250px auto;
+    border:1px solid #ddd;
+    width: 305px;
+}
+
+div#login-box div.inner{padding: 10px;}
+form#login ul {list-style: none;}
+form#login ul li{margin: 10px 0;}
+form#login ul li label {
+    float: left;
+    padding: 6px 0 0 0;
+    width: 70px;
+    display: block;
+    font-size: 12px;
+    line-height: 1;
+}
+
+form#login ul li input.textbox {
+    font-size: 13px;
+    font-weight: normal;
+    width: 147px;
+}
+
+form#login ul li input#login-submit {
+    margin:0px 0 0 70px;
+    float: right;
+}
+
+ul.profile-list{
+    margin: 15px 0 0 0;
+    list-style: none;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+ul.profile-list li{
+    padding: 0 0 12px 0;
+}
+
+ul.profile-list span.field{
+    display: block;
+    float: left;
+    margin: 3px 10px 0 0;
+    width: 110px;
+}
+
+ul.profile-list span.value{
+    float: left;
+    padding: 3px 7px;
+    width: 210px;
+    background: #F7F5ED;
+    color: #666;
+}
